@@ -1,0 +1,185 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+    width: 100%; 
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto; 
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.hat {
+  height: 400px;
+  width: 400px; 
+  border: 2px solid black; 
+  margin: 0 auto; 
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom: none;
+}
+
+.face {
+  height: 230px;
+  width: 355px; 
+  position: relative; 
+  border-radius: 50%;
+  border: 2px solid black; 
+  background-color: #fde1ca;
+  margin: 0 auto; 
+  margin-top: 20%;
+}
+
+.rightEye {
+  height: 18px;
+  width: 18px; 
+  position: absolute; 
+  bottom: 55%;
+  left: 25%; 
+  border-radius: 50%;
+  background-color: black;
+}
+
+.leftEye {
+  height: 18px;
+  width: 18px; 
+  position: absolute; 
+  bottom: 55%;
+  right: 25%; 
+  border-radius: 50%;
+  background-color: black;
+}
+
+.mouth {
+  height: 100px;
+  width: 80px;
+  position: absolute;
+  bottom: 30%;
+  left: 38%;
+  border-bottom: 4px solid #222;
+  border-radius: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none; 
+}
+
+.shirt {
+  height: 400px;
+  width: 400px; 
+  position: relative; 
+  background-color: #0099cb;
+  border: 2px solid black; 
+  margin: 0 auto; 
+}
+
+.rightArmShirt {
+  width: 100px;
+  position: absolute;
+  background-color: #0099cb;
+  height: 165px;
+  right: -82px;
+  rotate: 135deg;
+  top: 1px;
+  border-bottom-left-radius: 22%;
+  border: 2px solid black;
+  border-bottom: none;
+  border-right: none;
+}
+
+.rightArm {
+  width: 100px;
+}
+
+.leftArmShirt {
+  width: 100px;
+  position: absolute;
+  background-color: #0099cb;
+  height: 125px;
+}
+
+.leftArm {
+  width: 100px;
+}
+
+.pants {
+  height: 200px;
+  width: 400px; 
+  position: relative;
+  background-color: #0066CB;
+  border: 2px solid black; 
+  margin: 0 auto; 
+  border-top: none; 
+}
+
+.rightLegPant {
+  width: 100px; 
+  position: absolute;
+  height: 125px;
+  right: -2px;
+  bottom: -63%;
+  background-color: #0066CB;
+  border: 2px solid black; 
+  margin: 0 auto; 
+  border-top: none; 
+}
+
+.rightLeg {
+  width: 100px; 
+  position: absolute;
+  height: 400px;
+  right: -2px;
+  bottom: -263%;
+  background-color: #fde1ca;
+  border: 2px solid black; 
+  margin: 0 auto; 
+  border-top: none; 
+}
+
+.leftLegPant {
+  height: 125px;
+  width: 100px; 
+  position: absolute;
+  left: -2px;
+  bottom: -63%;
+  background-color: #0066CB;
+  border: 2px solid black; 
+  margin: 0 auto; 
+  border-top: none; 
+}
+
+.leftLeg {
+  width: 100px; 
+  position: absolute;
+  height: 400px;
+  left: -2px;
+  bottom: -263%;
+  background-color: #fde1ca;
+  border: 2px solid black; 
+  margin: 0 auto; 
+  border-top: none; 
+}
