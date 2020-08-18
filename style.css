@@ -35,8 +35,8 @@ header {
 }
 
 .hat {
-  height: 400px;
-  width: 400px; 
+  height: 300px;
+  width: 300px; 
   border: 2px solid black; 
   margin: 0 auto; 
   border-top-left-radius: 80px;
@@ -45,19 +45,19 @@ header {
 }
 
 .face {
-  height: 230px;
-  width: 355px; 
+  height: 160px;
+  width: 255px;
   position: relative; 
   border-radius: 50%;
   border: 2px solid black; 
   background-color: #fde1ca;
-  margin: 0 auto; 
-  margin-top: 20%;
+  margin: 0 auto;
+  margin-top: 25%;
 }
 
 .rightEye {
-  height: 18px;
-  width: 18px; 
+  height: 15px;
+  width: 15px;
   position: absolute; 
   bottom: 55%;
   left: 25%; 
@@ -66,8 +66,8 @@ header {
 }
 
 .leftEye {
-  height: 18px;
-  width: 18px; 
+  height: 15px;
+  width: 15px;
   position: absolute; 
   bottom: 55%;
   right: 25%; 
@@ -76,11 +76,11 @@ header {
 }
 
 .mouth {
-  height: 100px;
-  width: 80px;
+  height: 50px;
+  width: 70px;
+  left: 37%;
   position: absolute;
   bottom: 30%;
-  left: 38%;
   border-bottom: 4px solid #222;
   border-radius: 100%;
   border-top: none;
@@ -90,7 +90,7 @@ header {
 
 .shirt {
   height: 400px;
-  width: 400px; 
+  width: 300px;
   position: relative; 
   background-color: #0099cb;
   border: 2px solid black; 
@@ -98,13 +98,13 @@ header {
 }
 
 .rightArmShirt {
-  width: 100px;
+  width: 50px;
+  height: 200px;
+  right: -45px;
+  top: -2px;
+  rotate: 160deg;
   position: absolute;
   background-color: #0099cb;
-  height: 165px;
-  right: -82px;
-  rotate: 135deg;
-  top: 1px;
   border-bottom-left-radius: 22%;
   border: 2px solid black;
   border-bottom: none;
@@ -112,30 +112,132 @@ header {
 }
 
 .rightArm {
-  width: 100px;
+  width: 50px;
+  height: 215px;
+  right: -115px;
+  bottom: 0;
+  rotate: 160deg;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
 }
 
 .leftArmShirt {
-    width: 100px;
+  width: 50px;
+  height: 200px;
+  left: -46px;
+  top: -1px;
+  rotate: 200deg;
   position: absolute;
   background-color: #0099cb;
-  height: 165px;
-  left: -82px;
-  top: 1px;
   border: 2px solid black;
   border-bottom: none;
-  rotate: 225deg;
   border-bottom-right-radius: 22%;
   border-left: none;
 }
 
 .leftArm {
-  width: 100px;
+  width: 50px;
+  height: 215px;
+  left: -115px;
+  bottom: 0;
+  rotate: 200deg;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top: none;
+}
+
+.leftForearm {
+  width: 50px;
+  height: 215px;
+  left: -196px;
+  bottom: -15px;
+  border-top-right-radius: 50px;
+  rotate: 145deg;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-top-left-radius: 50%;
+  border-top: none;
+  border-bottom: none; 
+}
+
+.leftHand {
+  width: 50px;
+  height: 70px;
+  bottom: -51px;  
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-top: none; 
+  left: -2px;
+  border-bottom-left-radius: 50px;
+}
+
+.thumb {
+  width: 20px;
+  height: 42px;
+  bottom: -29px;
+  rotate: 135deg;
+  left: 49px;
+  border-radius: 50%; 
+  border-bottom-right-radius: 0px;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-bottom: none;
+}
+
+.fingerOne {
+  width: 18px;
+  height: 37px;
+  left: 51px;
+  bottom: 4px;
+  rotate: 70deg;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-bottom: none;
+}
+
+.fingerTwo {
+  width: 18px;
+  height: 48px;
+  left: 48px;
+  bottom: 16px;
+  rotate: 65deg;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 50px;
+  z-index: 1;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-bottom: none;
+}
+
+.fingerThree {
+  width: 20px;
+  height: 62px;
+  left: 45px;
+  bottom: 31px;
+  rotate: 59deg;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 50px;
+  border-right: none;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-bottom: none;
 }
 
 .pants {
-  height: 200px;
-  width: 400px; 
+  height: 125px;
+  width: 300px;
   position: relative;
   background-color: #0066CB;
   border: 2px solid black; 
@@ -144,11 +246,11 @@ header {
 }
 
 .rightLegPant {
-  width: 100px; 
+  width: 50px; 
   position: absolute;
   height: 125px;
   right: -2px;
-  bottom: -63%;
+  bottom: -102%;
   background-color: #0066CB;
   border: 2px solid black; 
   margin: 0 auto; 
@@ -156,11 +258,11 @@ header {
 }
 
 .rightLeg {
-  width: 100px; 
+  width: 50px;
   position: absolute;
   height: 400px;
   right: -2px;
-  bottom: -263%;
+  bottom: -426%;
   background-color: #fde1ca;
   border: 2px solid black; 
   margin: 0 auto; 
@@ -168,11 +270,11 @@ header {
 }
 
 .leftLegPant {
-  height: 125px;
-  width: 100px; 
+  width: 50px;
+  height: 125px; 
   position: absolute;
   left: -2px;
-  bottom: -63%;
+  bottom: -102%;
   background-color: #0066CB;
   border: 2px solid black; 
   margin: 0 auto; 
@@ -180,13 +282,61 @@ header {
 }
 
 .leftLeg {
-  width: 100px; 
+  width: 50px;
   position: absolute;
   height: 400px;
   left: -2px;
-  bottom: -263%;
+  bottom: -426%;
   background-color: #fde1ca;
   border: 2px solid black; 
   margin: 0 auto; 
   border-top: none; 
+}
+
+.rightSock {
+  width: 100px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid black; 
+  border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+}
+
+.leftSock {
+  width: 100px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid black; 
+  border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  right: -25px;
+}
+
+.rightShoe {
+  width: 170px;
+  height: 65px;
+  bottom: -67px;
+  right: -118px;
+  background-color: black;
+  position: absolute;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 5px;
+}
+
+.leftShoe {
+  width: 170px;
+  height: 65px;
+  bottom: -67px;
+  left: -118px;
+  background-color: black;
+  position: absolute;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 5px;
 }
