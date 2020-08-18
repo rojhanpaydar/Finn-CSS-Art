@@ -166,7 +166,7 @@ header {
 }
 
 .leftHand {
-  width: 50px;
+  width: 53px;
   height: 70px;
   bottom: -51px;  
   position: absolute;
@@ -192,10 +192,10 @@ header {
 }
 
 .fingerOne {
-  width: 18px;
+  width: 19px;
+  left: 54px;
+  bottom: 5px;
   height: 37px;
-  left: 51px;
-  bottom: 4px;
   rotate: 70deg;
   border-top-left-radius: 40px;
   border-top-right-radius: 50px;
@@ -206,10 +206,10 @@ header {
 }
 
 .fingerTwo {
-  width: 18px;
+  width: 20px;
+  left: 56px;
+  bottom: 22px;
   height: 48px;
-  left: 48px;
-  bottom: 16px;
   rotate: 65deg;
   border-top-left-radius: 40px;
   border-top-right-radius: 50px;
@@ -221,10 +221,10 @@ header {
 }
 
 .fingerThree {
-  width: 20px;
+  width: 22px;
+  left: 49px;
+  bottom: 36px;
   height: 62px;
-  left: 45px;
-  bottom: 31px;
   rotate: 59deg;
   border-top-left-radius: 40px;
   border-top-right-radius: 50px;
@@ -233,6 +233,16 @@ header {
   background-color: #fde1ca;
   border: 2px solid black;
   border-bottom: none;
+}
+
+.handLine {
+  height: 15px;
+  width: 20px;
+  left: 20%;
+  bottom: 36%;
+  border-bottom: 2px solid #222;
+  position: absolute;
+  border-radius: 100%;
 }
 
 .pants {
