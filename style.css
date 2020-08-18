@@ -116,10 +116,17 @@ header {
 }
 
 .leftArmShirt {
-  width: 100px;
+    width: 100px;
   position: absolute;
   background-color: #0099cb;
-  height: 125px;
+  height: 165px;
+  left: -82px;
+  top: 1px;
+  border: 2px solid black;
+  border-bottom: none;
+  rotate: 225deg;
+  border-bottom-right-radius: 22%;
+  border-left: none;
 }
 
 .leftArm {
