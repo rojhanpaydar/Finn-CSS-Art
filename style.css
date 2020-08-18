@@ -42,16 +42,17 @@ header {
   margin: 0 auto;
   border-bottom: none;
   background-color: #fff; 
+  position: relative; 
 }
 
 .leftEar {
   height: 39px;
   width: 65px;
-  top: 13px;
+  top: -39px;
+  left: 233px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   position: absolute;
-  left: 346px;
   border: 2px solid black; 
   background-color: #fff; 
   border-bottom: none; 
@@ -60,11 +61,11 @@ header {
 .rightEar {
   height: 39px;
   width: 65px;
-  top: 13px;
+  top: -39px;
+  right: 233px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   position: absolute;
-  right: 346px;
   border: 2px solid black; 
   background-color: #fff; 
   border-bottom: none; 
@@ -131,7 +132,21 @@ header {
   border-bottom-left-radius: 22%;
   border: 2px solid black;
   border-bottom: none;
-  border-right: none;
+  z-index: -1;
+}
+
+.rightBackPackStrap {
+  width: 39px;
+  height: 160px;
+  rotate: 20deg;
+  left: -6px;
+  bottom: -7px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 100px;
+  border: 2px solid black;
+  background-color: #A0D88D;
+  position: absolute;
 }
 
 .rightArm {
@@ -143,6 +158,75 @@ header {
   position: absolute;
   background-color: #fde1ca;
   border: 2px solid black;
+  border-top-left-radius: 7px;
+}
+
+.rightForearm {
+  width: 50px;
+  height: 201px;
+  right: -151px;
+  bottom: -180px;
+  rotate: 179deg;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 4px;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-top: none;
+  border-bottom: none;
+}
+
+.rightHand {
+  width: 53px;
+  height: 70px;
+  top: -50px;
+  left: -4px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px; 
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-bottom: none;
+}
+
+.rightHand .fingerOne {
+  width: 19px;
+  left: -2px;
+  bottom: 35px;
+  rotate: 0deg;
+  height: 37px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-bottom: none;
+}
+.rightHand .fingerTwo {
+  width: 19px;
+  left: 15px;
+  bottom: 40px;
+  rotate: 0deg;
+  height: 37px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-bottom: none;
+}
+.rightHand .fingerThree {
+  width: 19px;
+  left: 32px;
+  bottom: 35px;
+  rotate: 0deg;
+  height: 37px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  background-color: #fde1ca;
+  border: 2px solid black;
+  border-bottom: none;
 }
 
 .leftArmShirt {
@@ -156,7 +240,21 @@ header {
   border: 2px solid black;
   border-bottom: none;
   border-bottom-right-radius: 22%;
-  border-left: none;
+  z-index: -1;
+}
+
+.leftBackPackStrap {
+  width: 39px;
+  height: 160px;
+  rotate: -20deg;
+  right: -5px;
+  bottom: -7px;
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 100px;
+  border: 2px solid black;
+  background-color: #A0D88D;
+  position: absolute;
 }
 
 .leftArm {
@@ -279,7 +377,7 @@ header {
 }
 
 .rightLegPant {
-  width: 50px; 
+  width: 65px; 
   position: absolute;
   height: 125px;
   right: -2px;
@@ -294,7 +392,7 @@ header {
   width: 50px;
   position: absolute;
   height: 400px;
-  right: -2px;
+  right: 3px;
   bottom: -426%;
   background-color: #fde1ca;
   border: 2px solid black; 
@@ -303,7 +401,7 @@ header {
 }
 
 .leftLegPant {
-  width: 50px;
+  width: 65px;
   height: 125px; 
   position: absolute;
   left: -2px;
@@ -318,7 +416,7 @@ header {
   width: 50px;
   position: absolute;
   height: 400px;
-  left: -2px;
+  left: 5px;
   bottom: -426%;
   background-color: #fde1ca;
   border: 2px solid black; 
