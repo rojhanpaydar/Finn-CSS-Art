@@ -139,8 +139,8 @@ header {
   height: 100px;
   right: -26px;
   top: -2px;
-  -webkit-transform-rotate: 160deg;
   rotate: 160deg;
+  -webkit-transform-rotate: 160deg;
   position: absolute;
   background-color: #0099cb;
   border-bottom-left-radius: 22%;
@@ -152,8 +152,8 @@ header {
 .rightBackPackStrap {
   width: 20px;
   height: 110px;
-  -webkit-transform-rotate: 20deg;
   rotate: 20deg;
+  -webkit-transform-rotate: 20deg;
   left: 3px;
   bottom: -7px;
   border-bottom-left-radius: 70px;
@@ -169,8 +169,8 @@ header {
   height: 72px;
   right: -55px;
   bottom: 6px;
-  -webkit-transform-rotate: 160deg; 
   rotate: 160deg;
+  -webkit-transform-rotate: 160deg; 
   position: absolute;
   background-color: #fde1ca;
   border: 2px solid black;
@@ -182,8 +182,8 @@ header {
   height: 66px;
   right: -66px;
   bottom: -48px;
-  -webkit-transform-rotate: 179deg; 
   rotate: 179deg;
+  -webkit-transform-rotate: 179deg; 
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 4px;
   position: absolute;
@@ -211,8 +211,8 @@ header {
   left: -2px;
   bottom: 22px;
   height: 25px;
-  -webkit-transform-rotate: 0deg; 
   rotate: 0deg;
+  -webkit-transform-rotate: 0deg; 
   border-top-left-radius: 40px;
   border-top-right-radius: 50px;
   position: absolute;
@@ -225,8 +225,8 @@ header {
   left: 6px;
   bottom: 22px;
   height: 26px;
-  -webkit-transform-rotate: 0deg;
   rotate: 0deg;
+  -webkit-transform-rotate: 0deg;
   border-top-left-radius: 40px;
   border-top-right-radius: 50px;
   position: absolute;
@@ -239,8 +239,8 @@ header {
   left: 14px;
   bottom: 22px;
   height: 25px;
-  -webkit-transform-rotate: 0deg;
   rotate: 0deg;
+  -webkit-transform-rotate: 0deg;
   border-top-left-radius: 40px;
   border-top-right-radius: 50px;
   position: absolute;
@@ -254,8 +254,8 @@ header {
   height: 100px;
   left: -28px;
   top: -1px;
-  -webkit-transform-rotate: 200deg;
   rotate: 200deg;
+  -webkit-transform-rotate: 200deg;
   position: absolute;
   background-color: #0099cb;
   border: 2px solid black;
@@ -267,8 +267,8 @@ header {
 .leftBackPackStrap {
   width: 20px;
   height: 110px;
-  -webkit-transform-rotate: -20deg;
   rotate: -20deg;
+  -webkit-transform-rotate: -20deg;
   right: 6px;
   bottom: -7px;
   border-bottom-right-radius: 70px;
@@ -284,8 +284,8 @@ header {
   height: 72px;
   left: -57px;
   bottom: 4px;
-  -webkit-transform-rotate: 200deg;
   rotate: 200deg;
+  -webkit-transform-rotate: 200deg;
   position: absolute;
   background-color: #fde1ca;
   border: 2px solid black;
@@ -300,8 +300,8 @@ header {
   left: -82px;
   bottom: -3px;
   border-top-right-radius: 50px;
-  -webkit-transform-rotate: 145deg; 
   rotate: 145deg;
+  -webkit-transform-rotate: 145deg; 
   position: absolute;
   background-color: #fde1ca;
   border: 2px solid black;
@@ -327,8 +327,8 @@ header {
   height: 24px;
   bottom: -19px;
   left: 27px;
-  -webkit-transform-rotate: 135deg; 
   rotate: 135deg;
+  -webkit-transform-rotate: 135deg; 
   border-radius: 50%; 
   border-bottom-right-radius: 0px;
   position: absolute;
@@ -342,8 +342,8 @@ header {
   left: 27px;
   bottom: -1px;
   height: 23px;
-  -webkit-transform-rotate: 70deg;
   rotate: 70deg;
+  -webkit-transform-rotate: 70deg;
   border-top-left-radius: 40px;
   border-top-right-radius: 50px;
   position: absolute;
@@ -357,8 +357,8 @@ header {
   bottom: 6px;
   left: 30px;
   height: 30px;
-  -webkit-transform-rotate: 65deg;
   rotate: 65deg;
+  -webkit-transform-rotate: 65deg;
   border-top-left-radius: 40px;
   border-top-right-radius: 50px;
   z-index: 1;
@@ -373,8 +373,8 @@ header {
   left: 28px;
   bottom: 18px;
   height: 28px;
-  -webkit-transform-rotate: 59deg;
   rotate: 59deg;
+  -webkit-transform-rotate: 59deg;
   border-top-left-radius: 40px;
   border-top-right-radius: 50px;
   border-right: none;
