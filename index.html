@@ -10,7 +10,7 @@
 
 <body>
     <iframe src="assets/1-minute-of-silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-    <audio autoplay loop>
+    <audio id="themeSong" autoplay loop>
         <source src="assets/Adventure Time - Island Song.mp3" type="audio/mp3">
     </audio>
     <div class="background">
@@ -65,5 +65,6 @@
         </header>
     </div>
 </body>
+<script> document.getElementById('themeSong').play(); </script>
 
 </html>
