@@ -140,7 +140,10 @@ header {
   right: -26px;
   top: -2px;
   rotate: 160deg;
+  -moz-transform-rotate: 160deg;
   -webkit-transform-rotate: 160deg;
+  -o-transform-rotate:160deg;
+  -ms-transform-rotate: 160deg;
   position: absolute;
   background-color: #0099cb;
   border-bottom-left-radius: 22%;
