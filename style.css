@@ -118,6 +118,7 @@ header {
   position: absolute;
   bottom: 34%;
   border-radius: 100%;
+  border-top: none; 
 }
 
 .shirt {
