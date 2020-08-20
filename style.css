@@ -119,6 +119,10 @@ header {
   bottom: 34%;
   border-radius: 100%;
   border-top: none; 
+  -moz-border-top:none;
+  -webkit-border-top: none;
+  -o-border-top: none;
+  -ms-border-top: none;
 }
 
 .shirt {
